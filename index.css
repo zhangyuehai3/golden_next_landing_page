@@ -5,8 +5,8 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #e1eaff;
+  color: #684df4;
   padding: 1em;
   text-align: center;
 }
@@ -29,17 +29,20 @@ nav a {
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding: 2em;
 }
 
 .hero {
-  background-image: linear-gradient(to bottom, #333, #555);
+  width: 200px;
   background-size: 100% 300px;
   background-position: 0% 100%;
-  padding: 2em;
   text-align: center;
+}
+
+.hero img {
+  max-width: 100%;
 }
 
 .hero h2 {
